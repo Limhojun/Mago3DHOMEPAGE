@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.viewport .wrapper.no-pad {
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.viewport .logo img{
+  display: block;
+  position: absolute;
+  width: 250px;
+  top: 500px;
+}
+.viewport{
+  height: 45px;
+  position: relative;
+  background-color: #9966ff;
+}
+
+header.top-bar .navigation {
+  float: left;
+  padding-left: 0px;
+  margin: 5px;
+}
+header.top-bar .navigation li {
+  float: left;
+}
+
+header.top-bar .navigation li a {
+  display: block;
+  color: #eee;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header.top-bar .navigation li a:hover {
+  color: #99ccff;
+}
